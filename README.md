@@ -26,7 +26,7 @@ Then:
 
 2. Build the binary:
   ```shell
-  xk6 build v0.31.0 --with github.com/li-zhixin/xk6-influxdbv2
+  xk6 build latest --with github.com/li-zhixin/xk6-influxdbv2
   ```
 
 ## Run
