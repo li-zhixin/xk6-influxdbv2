@@ -7,8 +7,8 @@ import (
 	influxdb2 "github.com/influxdata/influxdb-client-go/v2"
 	"github.com/influxdata/influxdb-client-go/v2/api"
 	"github.com/influxdata/influxdb-client-go/v2/api/write"
-	"github.com/loadimpact/k6/output"
-	"github.com/loadimpact/k6/stats"
+	"go.k6.io/k6/output"
+	"go.k6.io/k6/stats"
 )
 
 func init() {
